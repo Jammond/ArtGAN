@@ -1,6 +1,6 @@
 
-pip install tensorflow
-pip install keras
+!pip install tensorflow
+!pip install keras
 
 import os
 
