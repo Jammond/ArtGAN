@@ -1,9 +1,11 @@
 
-from tensorflow.keras.layers import Input, Reshape, Dropout, Dense, Flatten, BatchNormalization, Activation, ZeroPadding2D
-from tensorflow.keras.layers.advanced_activations import LeakyReLU
-from tensorflow.keras.layers.convolutional import UpSampling2D, Conv2D
-from tensorflow.keras.models import Sequential, Model, load_model
-from tensorflow.keras.optimizers import Adam
+import tensorflow as tf
+
+from tf.keras.layers import Input, Reshape, Dropout, Dense, Flatten, BatchNormalization, Activation, ZeroPadding2D
+from tf.keras.layers.advanced_activations import LeakyReLU
+from tf.keras.layers.convolutional import UpSampling2D, Conv2D
+from tf.keras.models import Sequential, Model, load_model
+from tf.keras.optimizers import Adam
 import numpy as np
 from PIL import Image
 import os
