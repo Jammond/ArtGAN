@@ -1,3 +1,5 @@
+
+
 ## image_resizer.py
 # Importing required libraries
 import os
@@ -10,7 +12,7 @@ from PIL import Image
 
 IMAGE_SIZE = 128
 IMAGE_CHANNELS = 3
-IMAGE_DIR = 'WikiArt dataset/'
+IMAGE_DIR = 'WikiArt Dataset/'
 
 # Defining image dir path. Change this if you have different directory
 images_path = IMAGE_DIR 
